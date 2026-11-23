@@ -65,6 +65,8 @@ Ritmo umano: pause casuali, digitazione simulata, pause lunghe periodiche, limit
 - Pulsanti rapidi direttamente nella chat di WhatsApp Web.
 - **Nessun invio automatico**: ogni bozza passa dalla tua approvazione.
 
+![Revisione risposta](docs/screenshots/reply_review.png)
+
 #### 6. Versione API ufficiale (opzionale)
 Per volumi elevati è disponibile un backend su **WhatsApp Cloud API** ufficiale (Meta / 360dialog).
 
@@ -107,6 +109,8 @@ WhatsApp Toolkit is a desktop application for retail stores, optical shops, prof
 3. **GDPR compliance**: skips contacts without consent, permanent opt-out list, personal-chat exclusion list, multi-month history, end-of-session recap with reply rate and follow-ups.
 4. **Human-like pacing**: random delays, simulated typing, periodic long breaks, daily cap.
 5. **Local AI reply assistant**: multi-agent pipeline on a local model (classifier, responder with FAQ and product catalog, reviewer that blocks invented prices or stock). Data stays on your machine. **Every reply needs your approval.**
+
+   ![Reply review](docs/screenshots/reply_review.png)
 6. **Official API edition (optional)**: WhatsApp Cloud API backend (Meta / 360dialog) for high volumes.
 
 ### Requirements
